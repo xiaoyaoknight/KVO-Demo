@@ -15,6 +15,7 @@
 		C77AB64822730B87001B803B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C77AB64722730B87001B803B /* main.m */; };
 		C77AB65222730B87001B803B /* KVO_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C77AB65122730B87001B803B /* KVO_DemoTests.m */; };
 		C77AB65D22730B87001B803B /* KVO_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C77AB65C22730B87001B803B /* KVO_DemoUITests.m */; };
+		C77AB66C22730E4D001B803B /* ZLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = C77AB66B22730E4D001B803B /* ZLPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C77AB65822730B87001B803B /* KVO-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KVO-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77AB65C22730B87001B803B /* KVO_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVO_DemoUITests.m; sourceTree = "<group>"; };
 		C77AB65E22730B87001B803B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77AB66A22730E4D001B803B /* ZLPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLPerson.h; sourceTree = "<group>"; };
+		C77AB66B22730E4D001B803B /* ZLPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				C77AB63922730B85001B803B /* AppDelegate.m */,
 				C77AB63B22730B85001B803B /* ViewController.h */,
 				C77AB63C22730B85001B803B /* ViewController.m */,
+				C77AB66A22730E4D001B803B /* ZLPerson.h */,
+				C77AB66B22730E4D001B803B /* ZLPerson.m */,
 				C77AB63E22730B85001B803B /* Main.storyboard */,
 				C77AB64122730B87001B803B /* Assets.xcassets */,
 				C77AB64322730B87001B803B /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				C77AB63D22730B85001B803B /* ViewController.m in Sources */,
 				C77AB64822730B87001B803B /* main.m in Sources */,
+				C77AB66C22730E4D001B803B /* ZLPerson.m in Sources */,
 				C77AB63A22730B85001B803B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
